@@ -1,0 +1,17 @@
+<h1 class="inline">Employee Salary Detail</h1>
+<table class="table table-bordered table-sm m-0">
+  <thead class="">
+    <tr>
+    <th>Id</th>
+      <th>Name</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let salary of employeesalaries">
+            <td>{{salary.employeeid}}</td>
+      <td>{{salary.name}}</td>
+      <td>{{salary.salary}}</td>
+    </tr>
+  </tbody>
+</table>
